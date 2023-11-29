@@ -9,7 +9,7 @@ public class TargetController : MonoBehaviour
     [SerializeField] private Transform[] tires = new Transform[4]; // 차량의 4개 바퀴 모양을 나타내는 Transform 배열
     [SerializeField] private float targetSpeed = 5.0f; // 목표 속도
     [SerializeField] private float acceleration = 2.0f; // 가속도
-    [SerializeField] private float steeringAngle = 30f; // 핸들 조작에 따른 바퀴 회전 각도
+    //[SerializeField] private float steeringAngle = 30f; // 핸들 조작에 따른 바퀴 회전 각도
     [SerializeField] private float currentSpeed; // 현재 속도
     [SerializeField] private float horizontalInput; // 수평 입력 값
     
@@ -19,9 +19,6 @@ public class TargetController : MonoBehaviour
     // 차선 변경 관련 변수
     [SerializeField] private bool isTurn = false; // 차선 변경 여부 플래그
     [SerializeField] private float[] lanePositions = { 0f, 10f, 20f }; // 차선 위치 배열
-    private bool Is_right_lane_change = false;  // 우측 차선 변경 여부 초기화
-    private bool Is_left_lane_change = false;   // 좌측 차선 변경 여부 초기화
-    private float start_y = 0;  // 차선 변경 시작 위치 초기화
     private int currentLane = 1; // 현재 차선
 
     private bool isChangingLane = false; // 차선 변경 중인지 여부를 나타내는 플래그
