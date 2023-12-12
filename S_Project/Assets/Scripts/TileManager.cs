@@ -8,8 +8,8 @@ public class TileManager : MonoBehaviour
     public GameObject[] specialTilePrefab; // 내가 원하는 특별한 타일
 
     private Transform playerTransform;
-    private float spawnZ = -6f;
-    private float tileLength = 80.0f;
+    private float spawnZ = -50f;
+    private float tileLength = 70.0f;
     private float safeZone = 200f;
     private int amnTileOnScreen = 13;
     private int tilesUntilSpecial = 20; // 내가 원하는 타일이 생성되기 전까지의 랜덤 타일 수

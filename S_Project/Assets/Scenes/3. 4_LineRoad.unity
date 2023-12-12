@@ -485,9 +485,9 @@ MonoBehaviour:
   - {fileID: 6548196890441580613, guid: 5ef2310233cf46a468be2ad1b7331c4c, type: 3}
   - {fileID: 6649324553237666569, guid: 8cc910dc04e19ff498c483de4ecbd288, type: 3}
   specialTilePrefab:
-  - {fileID: 6014078050972239916, guid: d3d9b78ba1898d04dac40035f92605e1, type: 3}
-  - {fileID: 3758696462635264578, guid: ad07df23052f81541a497b3272ab509f, type: 3}
-  - {fileID: 9213941927799116906, guid: 7336ee61b8c3b5846a3789359dabd07c, type: 3}
+  - {fileID: 15611391999773568, guid: c0a85cb2c7c757d4595bcf75776be677, type: 3}
+  - {fileID: 7665321450220158570, guid: dc94c284062f750448505d1ce84ad9f4, type: 3}
+  - {fileID: 3031740306462502892, guid: 472901e16036b87429cd3ed021e0bbf0, type: 3}
 --- !u!1 &2088652385
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,7 +587,7 @@ Transform:
   m_GameObject: {fileID: 2088652385}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: 2.5, z: 0}
+  m_LocalPosition: {x: 6.5, y: 2.5, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 4}
   m_ConstrainProportionsScale: 1
   m_Children:
